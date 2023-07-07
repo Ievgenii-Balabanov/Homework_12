@@ -1,0 +1,31 @@
+{% extends "academy/base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block Title %}
+        <title>Subjects</title>
+    {% endblock Title %}
+{#    <title>Subjects</title>#}
+</head>
+<body>
+{% block content %}
+    <fieldset>
+    <h1>List of Subjects:</h1>
+    </fieldset>
+{% if subjects_list %}
+    <ul>
+    {% for subject in subjects_list %}
+{#        <li><a href="{{ subjects.get_absolute_url }}">{{ subjects.subject_name}}</a></li>#}
+        <li>
+            <a href="{% url "academy:subject_detail" subject.id %}">{{ subject.subject_name}}</a> (Teacher: {{ subject.teacher_name }})
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No subjects are available</p>
+{% endif %}
+{% endblock content %}
+
+</body>
+</html>

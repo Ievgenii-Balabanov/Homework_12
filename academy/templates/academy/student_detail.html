@@ -1,0 +1,16 @@
+{% extends "academy/base.html" %}
+
+{% block content %}
+
+  <h1>Student: {{ student.student_first_name}} {{ student.student_last_name}}</h1>
+
+{#  <p><strong>First name:</strong> <a href="{% url 'author-detail' book.author.pk %}">{{ book.author }}</a></p>#}
+    <p><strong>First name:</strong> {{ student.student_first_name }}</p>
+    <p><strong>Last name:</strong> {{ student.student_last_name }}</p>
+    <p><strong>Course:</strong> {{ student.course }}</p>
+    <p><strong>Teacher:</strong> {{ student.teacher.all|join:", " }}</p>
+    <strong>Subjects:</strong> {% for subject in student.subjects_set.all%}
+        <a href="{{ subject.get_absolute_url }}"> {{ subject }}</a>
+{% endfor %}
+    <p><strong><a href="{% url "academy:students_profile" student.id %}">Student Profile Page</a></strong></p>
+{% endblock %}

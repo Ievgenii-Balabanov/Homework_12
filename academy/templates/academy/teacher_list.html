@@ -1,0 +1,29 @@
+{% extends "academy/base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block Title %}
+        <title>Teachers</title>
+    {% endblock Title %}
+</head>
+<body>
+{% block content %}
+    <fieldset>
+    <h1>List of the Teachers:</h1>
+    </fieldset>
+{% if teacher_list %}
+    <ul>
+    {% for teacher in teacher_list %}
+        <li>
+            <a href="{% url "academy:teacher_detail" teacher.id %}">{{ teacher.teacher_first_name }} {{ teacher.teacher_last_name }}</a> (Subjects: {{ teacher.subjects_set.all|join:", " }})
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No teachers are available</p>
+{% endif %}
+{% endblock content %}
+
+</body>
+</html>

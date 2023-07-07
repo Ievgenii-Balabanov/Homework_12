@@ -1,0 +1,8 @@
+{% extends "academy/base.html" %}
+
+{% block content %}
+
+  <h1>Teacher: {{ teacher.teacher_first_name}} {{ teacher.teacher_last_name}}</h1>
+    <p><strong>Seniority:</strong> {{ teacher.seniority }} years</p>
+{#    <p><strong>Subjects:</strong> <a href="{% url "academy:subject" subjects.student_name %}">{{ student.subjects.all|join:", "}}</a></p>#}
+{% endblock %}

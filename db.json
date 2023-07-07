@@ -1,0 +1,6792 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add teacher",
+    "content_type": 7,
+    "codename": "add_teacher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change teacher",
+    "content_type": 7,
+    "codename": "change_teacher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete teacher",
+    "content_type": 7,
+    "codename": "delete_teacher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view teacher",
+    "content_type": 7,
+    "codename": "view_teacher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add teacher profile",
+    "content_type": 8,
+    "codename": "add_teacherprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change teacher profile",
+    "content_type": 8,
+    "codename": "change_teacherprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete teacher profile",
+    "content_type": 8,
+    "codename": "delete_teacherprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view teacher profile",
+    "content_type": 8,
+    "codename": "view_teacherprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add student",
+    "content_type": 9,
+    "codename": "add_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change student",
+    "content_type": 9,
+    "codename": "change_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete student",
+    "content_type": 9,
+    "codename": "delete_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view student",
+    "content_type": 9,
+    "codename": "view_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add student profile",
+    "content_type": 10,
+    "codename": "add_studentprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change student profile",
+    "content_type": 10,
+    "codename": "change_studentprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete student profile",
+    "content_type": 10,
+    "codename": "delete_studentprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view student profile",
+    "content_type": 10,
+    "codename": "view_studentprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add subjects",
+    "content_type": 11,
+    "codename": "add_subjects"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change subjects",
+    "content_type": 11,
+    "codename": "change_subjects"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete subjects",
+    "content_type": 11,
+    "codename": "delete_subjects"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view subjects",
+    "content_type": 11,
+    "codename": "view_subjects"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$YQGfUMrqLGvHK6J93RMh9J$XILjs0wrR8wTI2e/BIF2GWK/5MnvVg2Jbts5jTTIFGg=",
+    "last_login": "2023-07-05T11:43:34.648Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "qq@asd.asd",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-07-05T11:43:25.946Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "academy",
+    "model": "teacher"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "academy",
+    "model": "teacherprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "academy",
+    "model": "student"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "academy",
+    "model": "studentprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "academy",
+    "model": "subjects"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1sdokuc1w1qae4oku7q5k4oyq81i2wjy",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFFurB49O43kGUBqRpISnsy_rtt0oNe5jDvzbyFp3Upfu1p9lMUF6HE6bcLxM9UdxAfVO9NcqvLPAW5K_KgXd5aTK_r4f4dFOplW1MGhnMGY53NiAkcDOwiozYKYTAcdTAWkwW7JY6jimhJKTakUtAgPl_RJTc_:1qH0v0:AU10PnFOkE2RvcpM8aLP3U25D_IgHiQYdpyA8qKNzgs",
+    "expire_date": "2023-07-19T11:43:34.650Z"
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 1,
+  "fields": {
+    "teacher_first_name": "Jeremy",
+    "teacher_last_name": "Cabrera",
+    "seniority": 11
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 2,
+  "fields": {
+    "teacher_first_name": "Paul",
+    "teacher_last_name": "Carroll",
+    "seniority": 18
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 3,
+  "fields": {
+    "teacher_first_name": "Melinda",
+    "teacher_last_name": "Lin",
+    "seniority": 25
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 4,
+  "fields": {
+    "teacher_first_name": "Brittany",
+    "teacher_last_name": "Schaefer",
+    "seniority": 16
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 5,
+  "fields": {
+    "teacher_first_name": "Samantha",
+    "teacher_last_name": "Bruce",
+    "seniority": 16
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 6,
+  "fields": {
+    "teacher_first_name": "Nathan",
+    "teacher_last_name": "Nolan",
+    "seniority": 21
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 7,
+  "fields": {
+    "teacher_first_name": "Karina",
+    "teacher_last_name": "King",
+    "seniority": 3
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 8,
+  "fields": {
+    "teacher_first_name": "Evelyn",
+    "teacher_last_name": "Arroyo",
+    "seniority": 38
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 9,
+  "fields": {
+    "teacher_first_name": "John",
+    "teacher_last_name": "Ayers",
+    "seniority": 28
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 10,
+  "fields": {
+    "teacher_first_name": "Benjamin",
+    "teacher_last_name": "Wade",
+    "seniority": 19
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 11,
+  "fields": {
+    "teacher_first_name": "John",
+    "teacher_last_name": "Weiss",
+    "seniority": 31
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 12,
+  "fields": {
+    "teacher_first_name": "Deborah",
+    "teacher_last_name": "White",
+    "seniority": 18
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 13,
+  "fields": {
+    "teacher_first_name": "Dale",
+    "teacher_last_name": "Lee",
+    "seniority": 13
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 14,
+  "fields": {
+    "teacher_first_name": "Lori",
+    "teacher_last_name": "Anthony",
+    "seniority": 24
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 15,
+  "fields": {
+    "teacher_first_name": "Ryan",
+    "teacher_last_name": "Marquez",
+    "seniority": 24
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 16,
+  "fields": {
+    "teacher_first_name": "Wesley",
+    "teacher_last_name": "Montoya",
+    "seniority": 30
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 17,
+  "fields": {
+    "teacher_first_name": "William",
+    "teacher_last_name": "Stone",
+    "seniority": 27
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 18,
+  "fields": {
+    "teacher_first_name": "Matthew",
+    "teacher_last_name": "Fernandez",
+    "seniority": 21
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 19,
+  "fields": {
+    "teacher_first_name": "William",
+    "teacher_last_name": "Smith",
+    "seniority": 31
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 20,
+  "fields": {
+    "teacher_first_name": "Martin",
+    "teacher_last_name": "Friedman",
+    "seniority": 1
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 21,
+  "fields": {
+    "teacher_first_name": "Kevin",
+    "teacher_last_name": "Davis",
+    "seniority": 34
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 22,
+  "fields": {
+    "teacher_first_name": "Scott",
+    "teacher_last_name": "Morgan",
+    "seniority": 27
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 23,
+  "fields": {
+    "teacher_first_name": "Mark",
+    "teacher_last_name": "Arellano",
+    "seniority": 38
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 24,
+  "fields": {
+    "teacher_first_name": "Zachary",
+    "teacher_last_name": "Soto",
+    "seniority": 25
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 25,
+  "fields": {
+    "teacher_first_name": "Jennifer",
+    "teacher_last_name": "Wright",
+    "seniority": 25
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 26,
+  "fields": {
+    "teacher_first_name": "Kayla",
+    "teacher_last_name": "Walsh",
+    "seniority": 28
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 27,
+  "fields": {
+    "teacher_first_name": "Teresa",
+    "teacher_last_name": "Hudson",
+    "seniority": 26
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 28,
+  "fields": {
+    "teacher_first_name": "Amy",
+    "teacher_last_name": "Harris",
+    "seniority": 6
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 29,
+  "fields": {
+    "teacher_first_name": "Mark",
+    "teacher_last_name": "May",
+    "seniority": 21
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 30,
+  "fields": {
+    "teacher_first_name": "Kendra",
+    "teacher_last_name": "Maynard",
+    "seniority": 30
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 31,
+  "fields": {
+    "teacher_first_name": "Shawn",
+    "teacher_last_name": "Fitzgerald",
+    "seniority": 39
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 32,
+  "fields": {
+    "teacher_first_name": "Ernest",
+    "teacher_last_name": "Richard",
+    "seniority": 31
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 33,
+  "fields": {
+    "teacher_first_name": "Susan",
+    "teacher_last_name": "Solis",
+    "seniority": 30
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 34,
+  "fields": {
+    "teacher_first_name": "Charles",
+    "teacher_last_name": "Neal",
+    "seniority": 20
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 35,
+  "fields": {
+    "teacher_first_name": "Holly",
+    "teacher_last_name": "Williams",
+    "seniority": 25
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 36,
+  "fields": {
+    "teacher_first_name": "Karen",
+    "teacher_last_name": "Jones",
+    "seniority": 16
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 37,
+  "fields": {
+    "teacher_first_name": "Denise",
+    "teacher_last_name": "King",
+    "seniority": 37
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 38,
+  "fields": {
+    "teacher_first_name": "Rebekah",
+    "teacher_last_name": "Farmer",
+    "seniority": 4
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 39,
+  "fields": {
+    "teacher_first_name": "Brent",
+    "teacher_last_name": "Johnson",
+    "seniority": 11
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 40,
+  "fields": {
+    "teacher_first_name": "Sherry",
+    "teacher_last_name": "Barrera",
+    "seniority": 19
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 41,
+  "fields": {
+    "teacher_first_name": "Margaret",
+    "teacher_last_name": "Walters",
+    "seniority": 2
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 42,
+  "fields": {
+    "teacher_first_name": "John",
+    "teacher_last_name": "Shelton",
+    "seniority": 37
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 43,
+  "fields": {
+    "teacher_first_name": "Gerald",
+    "teacher_last_name": "Gaines",
+    "seniority": 29
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 44,
+  "fields": {
+    "teacher_first_name": "Sean",
+    "teacher_last_name": "Wagner",
+    "seniority": 36
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 45,
+  "fields": {
+    "teacher_first_name": "David",
+    "teacher_last_name": "Burnett",
+    "seniority": 25
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 46,
+  "fields": {
+    "teacher_first_name": "Manuel",
+    "teacher_last_name": "Nelson",
+    "seniority": 14
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 47,
+  "fields": {
+    "teacher_first_name": "Matthew",
+    "teacher_last_name": "Jackson",
+    "seniority": 11
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 48,
+  "fields": {
+    "teacher_first_name": "Alan",
+    "teacher_last_name": "Carter",
+    "seniority": 28
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 49,
+  "fields": {
+    "teacher_first_name": "Alan",
+    "teacher_last_name": "Landry",
+    "seniority": 11
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 50,
+  "fields": {
+    "teacher_first_name": "Angela",
+    "teacher_last_name": "Camacho",
+    "seniority": 34
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 51,
+  "fields": {
+    "teacher_first_name": "Jeffery",
+    "teacher_last_name": "Evans",
+    "seniority": 1
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 52,
+  "fields": {
+    "teacher_first_name": "Jackie",
+    "teacher_last_name": "Baird",
+    "seniority": 37
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 53,
+  "fields": {
+    "teacher_first_name": "Jasmine",
+    "teacher_last_name": "Wade",
+    "seniority": 39
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 54,
+  "fields": {
+    "teacher_first_name": "Andrew",
+    "teacher_last_name": "Dominguez",
+    "seniority": 13
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 55,
+  "fields": {
+    "teacher_first_name": "Ryan",
+    "teacher_last_name": "Johnson",
+    "seniority": 33
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 56,
+  "fields": {
+    "teacher_first_name": "Olivia",
+    "teacher_last_name": "Mueller",
+    "seniority": 39
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 57,
+  "fields": {
+    "teacher_first_name": "Brittany",
+    "teacher_last_name": "Medina",
+    "seniority": 15
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 58,
+  "fields": {
+    "teacher_first_name": "Natalie",
+    "teacher_last_name": "Peterson",
+    "seniority": 14
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 59,
+  "fields": {
+    "teacher_first_name": "Ronald",
+    "teacher_last_name": "Scott",
+    "seniority": 18
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 60,
+  "fields": {
+    "teacher_first_name": "Patricia",
+    "teacher_last_name": "Scott",
+    "seniority": 26
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 61,
+  "fields": {
+    "teacher_first_name": "Alan",
+    "teacher_last_name": "Jordan",
+    "seniority": 32
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 62,
+  "fields": {
+    "teacher_first_name": "Jennifer",
+    "teacher_last_name": "Osborn",
+    "seniority": 34
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 63,
+  "fields": {
+    "teacher_first_name": "Timothy",
+    "teacher_last_name": "Bruce",
+    "seniority": 11
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 64,
+  "fields": {
+    "teacher_first_name": "Helen",
+    "teacher_last_name": "Cardenas",
+    "seniority": 6
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 65,
+  "fields": {
+    "teacher_first_name": "Travis",
+    "teacher_last_name": "Baird",
+    "seniority": 31
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 66,
+  "fields": {
+    "teacher_first_name": "Dustin",
+    "teacher_last_name": "Velazquez",
+    "seniority": 34
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 67,
+  "fields": {
+    "teacher_first_name": "Donna",
+    "teacher_last_name": "Patton",
+    "seniority": 3
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 68,
+  "fields": {
+    "teacher_first_name": "Austin",
+    "teacher_last_name": "Fox",
+    "seniority": 23
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 69,
+  "fields": {
+    "teacher_first_name": "Lisa",
+    "teacher_last_name": "Russell",
+    "seniority": 8
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 70,
+  "fields": {
+    "teacher_first_name": "Matthew",
+    "teacher_last_name": "Kirby",
+    "seniority": 39
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 71,
+  "fields": {
+    "teacher_first_name": "Andrew",
+    "teacher_last_name": "Reyes",
+    "seniority": 18
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 72,
+  "fields": {
+    "teacher_first_name": "Kristen",
+    "teacher_last_name": "Lee",
+    "seniority": 26
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 73,
+  "fields": {
+    "teacher_first_name": "Brian",
+    "teacher_last_name": "Johnson",
+    "seniority": 24
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 74,
+  "fields": {
+    "teacher_first_name": "Phillip",
+    "teacher_last_name": "Santos",
+    "seniority": 29
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 75,
+  "fields": {
+    "teacher_first_name": "Crystal",
+    "teacher_last_name": "Rhodes",
+    "seniority": 11
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 76,
+  "fields": {
+    "teacher_first_name": "Rebecca",
+    "teacher_last_name": "Murray",
+    "seniority": 3
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 77,
+  "fields": {
+    "teacher_first_name": "Jennifer",
+    "teacher_last_name": "Fitzpatrick",
+    "seniority": 7
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 78,
+  "fields": {
+    "teacher_first_name": "Summer",
+    "teacher_last_name": "Lang",
+    "seniority": 1
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 79,
+  "fields": {
+    "teacher_first_name": "Kelly",
+    "teacher_last_name": "Anderson",
+    "seniority": 35
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 80,
+  "fields": {
+    "teacher_first_name": "Michael",
+    "teacher_last_name": "Baker",
+    "seniority": 39
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 81,
+  "fields": {
+    "teacher_first_name": "Morgan",
+    "teacher_last_name": "Brown",
+    "seniority": 14
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 82,
+  "fields": {
+    "teacher_first_name": "Richard",
+    "teacher_last_name": "Robinson",
+    "seniority": 17
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 83,
+  "fields": {
+    "teacher_first_name": "Juan",
+    "teacher_last_name": "Johnson",
+    "seniority": 36
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 84,
+  "fields": {
+    "teacher_first_name": "Kelly",
+    "teacher_last_name": "Wood",
+    "seniority": 23
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 85,
+  "fields": {
+    "teacher_first_name": "Maria",
+    "teacher_last_name": "Price",
+    "seniority": 37
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 86,
+  "fields": {
+    "teacher_first_name": "Emma",
+    "teacher_last_name": "Nguyen",
+    "seniority": 27
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 87,
+  "fields": {
+    "teacher_first_name": "Charles",
+    "teacher_last_name": "Lopez",
+    "seniority": 14
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 88,
+  "fields": {
+    "teacher_first_name": "Philip",
+    "teacher_last_name": "Maddox",
+    "seniority": 6
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 89,
+  "fields": {
+    "teacher_first_name": "Hannah",
+    "teacher_last_name": "Cordova",
+    "seniority": 31
+  }
+},
+{
+  "model": "academy.teacher",
+  "pk": 90,
+  "fields": {
+    "teacher_first_name": "John",
+    "teacher_last_name": "Gutierrez",
+    "seniority": 9
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 1,
+  "fields": {
+    "student_first_name": "William",
+    "student_last_name": "Cooper",
+    "course": 7,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 2,
+  "fields": {
+    "student_first_name": "Brandon",
+    "student_last_name": "Ramirez",
+    "course": 7,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 3,
+  "fields": {
+    "student_first_name": "Scott",
+    "student_last_name": "Beasley",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 4,
+  "fields": {
+    "student_first_name": "Heather",
+    "student_last_name": "Calhoun",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 5,
+  "fields": {
+    "student_first_name": "Stephanie",
+    "student_last_name": "Austin",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 6,
+  "fields": {
+    "student_first_name": "Christopher",
+    "student_last_name": "Walter",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 7,
+  "fields": {
+    "student_first_name": "Lauren",
+    "student_last_name": "Carter",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 8,
+  "fields": {
+    "student_first_name": "Amy",
+    "student_last_name": "Fernandez",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 9,
+  "fields": {
+    "student_first_name": "Carol",
+    "student_last_name": "Cisneros",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 10,
+  "fields": {
+    "student_first_name": "Leah",
+    "student_last_name": "Jackson",
+    "course": 7,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 11,
+  "fields": {
+    "student_first_name": "Carolyn",
+    "student_last_name": "Melendez",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 12,
+  "fields": {
+    "student_first_name": "Alan",
+    "student_last_name": "Lambert",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 13,
+  "fields": {
+    "student_first_name": "Andre",
+    "student_last_name": "Herrera",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 14,
+  "fields": {
+    "student_first_name": "Lisa",
+    "student_last_name": "Ruiz",
+    "course": 7,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 15,
+  "fields": {
+    "student_first_name": "Julie",
+    "student_last_name": "Gardner",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 16,
+  "fields": {
+    "student_first_name": "John",
+    "student_last_name": "Diaz",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 17,
+  "fields": {
+    "student_first_name": "Mary",
+    "student_last_name": "Becker",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 18,
+  "fields": {
+    "student_first_name": "Gary",
+    "student_last_name": "Hall",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 19,
+  "fields": {
+    "student_first_name": "Lisa",
+    "student_last_name": "Foster",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 20,
+  "fields": {
+    "student_first_name": "Michelle",
+    "student_last_name": "Ramirez",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 21,
+  "fields": {
+    "student_first_name": "Jasmin",
+    "student_last_name": "Byrd",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 22,
+  "fields": {
+    "student_first_name": "Michele",
+    "student_last_name": "Lawrence",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 23,
+  "fields": {
+    "student_first_name": "Kim",
+    "student_last_name": "Mann",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 24,
+  "fields": {
+    "student_first_name": "Shawn",
+    "student_last_name": "Parker",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 25,
+  "fields": {
+    "student_first_name": "Angela",
+    "student_last_name": "Collins",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 26,
+  "fields": {
+    "student_first_name": "Sydney",
+    "student_last_name": "David",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 27,
+  "fields": {
+    "student_first_name": "Natalie",
+    "student_last_name": "Martin",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 28,
+  "fields": {
+    "student_first_name": "Veronica",
+    "student_last_name": "Brown",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 29,
+  "fields": {
+    "student_first_name": "Tammy",
+    "student_last_name": "Walker",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 30,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Flores",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 31,
+  "fields": {
+    "student_first_name": "Todd",
+    "student_last_name": "Williams",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 32,
+  "fields": {
+    "student_first_name": "Theresa",
+    "student_last_name": "Munoz",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 33,
+  "fields": {
+    "student_first_name": "Ashlee",
+    "student_last_name": "Mcguire",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 34,
+  "fields": {
+    "student_first_name": "Tonya",
+    "student_last_name": "Harris",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 35,
+  "fields": {
+    "student_first_name": "Shannon",
+    "student_last_name": "Mathis",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 36,
+  "fields": {
+    "student_first_name": "Mark",
+    "student_last_name": "Mendoza",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 37,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Heath",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 38,
+  "fields": {
+    "student_first_name": "Kayla",
+    "student_last_name": "Powers",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 39,
+  "fields": {
+    "student_first_name": "Scott",
+    "student_last_name": "Martin",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 40,
+  "fields": {
+    "student_first_name": "Tyler",
+    "student_last_name": "Smith",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 41,
+  "fields": {
+    "student_first_name": "Nicholas",
+    "student_last_name": "Robinson",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 42,
+  "fields": {
+    "student_first_name": "Krista",
+    "student_last_name": "Lewis",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 43,
+  "fields": {
+    "student_first_name": "Derek",
+    "student_last_name": "Perez",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 44,
+  "fields": {
+    "student_first_name": "Joel",
+    "student_last_name": "West",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 45,
+  "fields": {
+    "student_first_name": "Deanna",
+    "student_last_name": "Gray",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 46,
+  "fields": {
+    "student_first_name": "Sharon",
+    "student_last_name": "Riddle",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 47,
+  "fields": {
+    "student_first_name": "Amanda",
+    "student_last_name": "Thomas",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 48,
+  "fields": {
+    "student_first_name": "Jacob",
+    "student_last_name": "Russell",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 49,
+  "fields": {
+    "student_first_name": "Jenna",
+    "student_last_name": "Tapia",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 50,
+  "fields": {
+    "student_first_name": "Misty",
+    "student_last_name": "Hanson",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 51,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Adams",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 52,
+  "fields": {
+    "student_first_name": "Nicole",
+    "student_last_name": "Brown",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 53,
+  "fields": {
+    "student_first_name": "Sonya",
+    "student_last_name": "Campos",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 54,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Robles",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 55,
+  "fields": {
+    "student_first_name": "Mercedes",
+    "student_last_name": "Wade",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 56,
+  "fields": {
+    "student_first_name": "Meredith",
+    "student_last_name": "Ortega",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 57,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Payne",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 58,
+  "fields": {
+    "student_first_name": "Bradley",
+    "student_last_name": "Brown",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 59,
+  "fields": {
+    "student_first_name": "Pamela",
+    "student_last_name": "Reeves",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 60,
+  "fields": {
+    "student_first_name": "Erika",
+    "student_last_name": "Waters",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 61,
+  "fields": {
+    "student_first_name": "Joshua",
+    "student_last_name": "Snyder",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 62,
+  "fields": {
+    "student_first_name": "Tyler",
+    "student_last_name": "Marks",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 63,
+  "fields": {
+    "student_first_name": "Maria",
+    "student_last_name": "Williams",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 64,
+  "fields": {
+    "student_first_name": "Crystal",
+    "student_last_name": "Jacobs",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 65,
+  "fields": {
+    "student_first_name": "Andrew",
+    "student_last_name": "Scott",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 66,
+  "fields": {
+    "student_first_name": "Justin",
+    "student_last_name": "Le",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 67,
+  "fields": {
+    "student_first_name": "Tiffany",
+    "student_last_name": "Galvan",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 68,
+  "fields": {
+    "student_first_name": "George",
+    "student_last_name": "Griffin",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 69,
+  "fields": {
+    "student_first_name": "Kelli",
+    "student_last_name": "Porter",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 70,
+  "fields": {
+    "student_first_name": "Christine",
+    "student_last_name": "Nguyen",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 71,
+  "fields": {
+    "student_first_name": "Brian",
+    "student_last_name": "Cunningham",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 72,
+  "fields": {
+    "student_first_name": "Donna",
+    "student_last_name": "Calhoun",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 73,
+  "fields": {
+    "student_first_name": "Gabriel",
+    "student_last_name": "Le",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 74,
+  "fields": {
+    "student_first_name": "Whitney",
+    "student_last_name": "Pham",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 75,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Gray",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 76,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Morrison",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 77,
+  "fields": {
+    "student_first_name": "Amy",
+    "student_last_name": "Massey",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 78,
+  "fields": {
+    "student_first_name": "Teresa",
+    "student_last_name": "Jones",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 79,
+  "fields": {
+    "student_first_name": "Christian",
+    "student_last_name": "Turner",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 80,
+  "fields": {
+    "student_first_name": "Daniel",
+    "student_last_name": "Montes",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 81,
+  "fields": {
+    "student_first_name": "Brian",
+    "student_last_name": "Freeman",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 82,
+  "fields": {
+    "student_first_name": "Tyler",
+    "student_last_name": "Sloan",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 83,
+  "fields": {
+    "student_first_name": "Danny",
+    "student_last_name": "Bridges",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 84,
+  "fields": {
+    "student_first_name": "Leon",
+    "student_last_name": "Ward",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 85,
+  "fields": {
+    "student_first_name": "Lauren",
+    "student_last_name": "Evans",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 86,
+  "fields": {
+    "student_first_name": "Anthony",
+    "student_last_name": "Carter",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 87,
+  "fields": {
+    "student_first_name": "Abigail",
+    "student_last_name": "Smith",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 88,
+  "fields": {
+    "student_first_name": "Donald",
+    "student_last_name": "Newton",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 89,
+  "fields": {
+    "student_first_name": "Joseph",
+    "student_last_name": "Roth",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 90,
+  "fields": {
+    "student_first_name": "Gary",
+    "student_last_name": "Long",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 91,
+  "fields": {
+    "student_first_name": "Anthony",
+    "student_last_name": "Lewis",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 92,
+  "fields": {
+    "student_first_name": "Jerry",
+    "student_last_name": "Johnson",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 93,
+  "fields": {
+    "student_first_name": "Marcus",
+    "student_last_name": "Stevens",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 94,
+  "fields": {
+    "student_first_name": "Cynthia",
+    "student_last_name": "Melton",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 95,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Hunt",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 96,
+  "fields": {
+    "student_first_name": "Jacob",
+    "student_last_name": "Green",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 97,
+  "fields": {
+    "student_first_name": "Fernando",
+    "student_last_name": "Davenport",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 98,
+  "fields": {
+    "student_first_name": "Sarah",
+    "student_last_name": "Berger",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 99,
+  "fields": {
+    "student_first_name": "Marissa",
+    "student_last_name": "Harris",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 100,
+  "fields": {
+    "student_first_name": "Ashley",
+    "student_last_name": "Brown",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 101,
+  "fields": {
+    "student_first_name": "Jessica",
+    "student_last_name": "Chen",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 102,
+  "fields": {
+    "student_first_name": "Karen",
+    "student_last_name": "Perez",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 103,
+  "fields": {
+    "student_first_name": "David",
+    "student_last_name": "Cannon",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 104,
+  "fields": {
+    "student_first_name": "Jon",
+    "student_last_name": "Hall",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 105,
+  "fields": {
+    "student_first_name": "Kimberly",
+    "student_last_name": "Soto",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 106,
+  "fields": {
+    "student_first_name": "Sheena",
+    "student_last_name": "Brooks",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 107,
+  "fields": {
+    "student_first_name": "Taylor",
+    "student_last_name": "Page",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 108,
+  "fields": {
+    "student_first_name": "Lynn",
+    "student_last_name": "Smith",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 109,
+  "fields": {
+    "student_first_name": "Jessica",
+    "student_last_name": "Martin",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 110,
+  "fields": {
+    "student_first_name": "Carlos",
+    "student_last_name": "Willis",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 111,
+  "fields": {
+    "student_first_name": "Karla",
+    "student_last_name": "Buck",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 112,
+  "fields": {
+    "student_first_name": "Teresa",
+    "student_last_name": "Allen",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 113,
+  "fields": {
+    "student_first_name": "Jill",
+    "student_last_name": "Jimenez",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 114,
+  "fields": {
+    "student_first_name": "Jason",
+    "student_last_name": "Peterson",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 115,
+  "fields": {
+    "student_first_name": "David",
+    "student_last_name": "Hoover",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 116,
+  "fields": {
+    "student_first_name": "Janet",
+    "student_last_name": "Singh",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 117,
+  "fields": {
+    "student_first_name": "Pamela",
+    "student_last_name": "Thompson",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 118,
+  "fields": {
+    "student_first_name": "Jacob",
+    "student_last_name": "Ingram",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 119,
+  "fields": {
+    "student_first_name": "Kyle",
+    "student_last_name": "Stark",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 120,
+  "fields": {
+    "student_first_name": "Katie",
+    "student_last_name": "Williams",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 121,
+  "fields": {
+    "student_first_name": "William",
+    "student_last_name": "Castro",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 122,
+  "fields": {
+    "student_first_name": "Daniel",
+    "student_last_name": "Henderson",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 123,
+  "fields": {
+    "student_first_name": "John",
+    "student_last_name": "Johnson",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 124,
+  "fields": {
+    "student_first_name": "Edwin",
+    "student_last_name": "Patterson",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 125,
+  "fields": {
+    "student_first_name": "Rachel",
+    "student_last_name": "Murray",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 126,
+  "fields": {
+    "student_first_name": "Shawn",
+    "student_last_name": "Wilson",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 127,
+  "fields": {
+    "student_first_name": "Ashley",
+    "student_last_name": "Taylor",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 128,
+  "fields": {
+    "student_first_name": "Howard",
+    "student_last_name": "Kelly",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 129,
+  "fields": {
+    "student_first_name": "Donald",
+    "student_last_name": "Ray",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 130,
+  "fields": {
+    "student_first_name": "Kimberly",
+    "student_last_name": "Miller",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 131,
+  "fields": {
+    "student_first_name": "Jennifer",
+    "student_last_name": "Estes",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 132,
+  "fields": {
+    "student_first_name": "John",
+    "student_last_name": "Knight",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 133,
+  "fields": {
+    "student_first_name": "Tina",
+    "student_last_name": "Meyer",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 134,
+  "fields": {
+    "student_first_name": "Karen",
+    "student_last_name": "Gray",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 135,
+  "fields": {
+    "student_first_name": "Julie",
+    "student_last_name": "Weaver",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 136,
+  "fields": {
+    "student_first_name": "Timothy",
+    "student_last_name": "Hill",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 137,
+  "fields": {
+    "student_first_name": "Nancy",
+    "student_last_name": "Watson",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 138,
+  "fields": {
+    "student_first_name": "Misty",
+    "student_last_name": "Hopkins",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 139,
+  "fields": {
+    "student_first_name": "Ashley",
+    "student_last_name": "Gregory",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 140,
+  "fields": {
+    "student_first_name": "David",
+    "student_last_name": "Taylor",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 141,
+  "fields": {
+    "student_first_name": "Kimberly",
+    "student_last_name": "Lopez",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 142,
+  "fields": {
+    "student_first_name": "Pamela",
+    "student_last_name": "Warren",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 143,
+  "fields": {
+    "student_first_name": "John",
+    "student_last_name": "Sparks",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 144,
+  "fields": {
+    "student_first_name": "Paige",
+    "student_last_name": "Cowan",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 145,
+  "fields": {
+    "student_first_name": "Elizabeth",
+    "student_last_name": "Lopez",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 146,
+  "fields": {
+    "student_first_name": "Brian",
+    "student_last_name": "Hood",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 147,
+  "fields": {
+    "student_first_name": "Cesar",
+    "student_last_name": "Schmitt",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 148,
+  "fields": {
+    "student_first_name": "Gabriel",
+    "student_last_name": "Stevens",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 149,
+  "fields": {
+    "student_first_name": "Elizabeth",
+    "student_last_name": "Lee",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 150,
+  "fields": {
+    "student_first_name": "Jamie",
+    "student_last_name": "Davis",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 151,
+  "fields": {
+    "student_first_name": "Lauren",
+    "student_last_name": "Barber",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 152,
+  "fields": {
+    "student_first_name": "Evan",
+    "student_last_name": "Bradford",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 153,
+  "fields": {
+    "student_first_name": "Kevin",
+    "student_last_name": "Cunningham",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 154,
+  "fields": {
+    "student_first_name": "Matthew",
+    "student_last_name": "Ward",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 155,
+  "fields": {
+    "student_first_name": "Glenn",
+    "student_last_name": "Mason",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 156,
+  "fields": {
+    "student_first_name": "Mark",
+    "student_last_name": "Jones",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 157,
+  "fields": {
+    "student_first_name": "Erin",
+    "student_last_name": "Durham",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 158,
+  "fields": {
+    "student_first_name": "Allen",
+    "student_last_name": "Mcgee",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 159,
+  "fields": {
+    "student_first_name": "Ryan",
+    "student_last_name": "Henry",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 160,
+  "fields": {
+    "student_first_name": "Courtney",
+    "student_last_name": "Cochran",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 161,
+  "fields": {
+    "student_first_name": "Kimberly",
+    "student_last_name": "Booker",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 162,
+  "fields": {
+    "student_first_name": "Larry",
+    "student_last_name": "Davidson",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 163,
+  "fields": {
+    "student_first_name": "Phyllis",
+    "student_last_name": "Smith",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 164,
+  "fields": {
+    "student_first_name": "Pamela",
+    "student_last_name": "Carson",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 165,
+  "fields": {
+    "student_first_name": "Antonio",
+    "student_last_name": "Weaver",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 166,
+  "fields": {
+    "student_first_name": "Jessica",
+    "student_last_name": "Rice",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 167,
+  "fields": {
+    "student_first_name": "Summer",
+    "student_last_name": "Nelson",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 168,
+  "fields": {
+    "student_first_name": "Raymond",
+    "student_last_name": "Gonzalez",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 169,
+  "fields": {
+    "student_first_name": "Cory",
+    "student_last_name": "Warren",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 170,
+  "fields": {
+    "student_first_name": "Anthony",
+    "student_last_name": "Miller",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 171,
+  "fields": {
+    "student_first_name": "Wendy",
+    "student_last_name": "Irwin",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 172,
+  "fields": {
+    "student_first_name": "Helen",
+    "student_last_name": "Richards",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 173,
+  "fields": {
+    "student_first_name": "Kevin",
+    "student_last_name": "Smith",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 174,
+  "fields": {
+    "student_first_name": "Aaron",
+    "student_last_name": "Taylor",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 175,
+  "fields": {
+    "student_first_name": "Melissa",
+    "student_last_name": "Dawson",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 176,
+  "fields": {
+    "student_first_name": "Martha",
+    "student_last_name": "Miranda",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 177,
+  "fields": {
+    "student_first_name": "Shannon",
+    "student_last_name": "Mccormick",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 178,
+  "fields": {
+    "student_first_name": "Thomas",
+    "student_last_name": "Bowman",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 179,
+  "fields": {
+    "student_first_name": "Christine",
+    "student_last_name": "Hill",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 180,
+  "fields": {
+    "student_first_name": "Melissa",
+    "student_last_name": "Singh",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 181,
+  "fields": {
+    "student_first_name": "Jason",
+    "student_last_name": "Martin",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 182,
+  "fields": {
+    "student_first_name": "Amy",
+    "student_last_name": "Lam",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 183,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Harper",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 184,
+  "fields": {
+    "student_first_name": "Tina",
+    "student_last_name": "Gill",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 185,
+  "fields": {
+    "student_first_name": "Heather",
+    "student_last_name": "Clayton",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 186,
+  "fields": {
+    "student_first_name": "David",
+    "student_last_name": "Douglas",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 187,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Thompson",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 188,
+  "fields": {
+    "student_first_name": "John",
+    "student_last_name": "Miller",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 189,
+  "fields": {
+    "student_first_name": "Mary",
+    "student_last_name": "Ryan",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 190,
+  "fields": {
+    "student_first_name": "Erin",
+    "student_last_name": "Spears",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 191,
+  "fields": {
+    "student_first_name": "Kristina",
+    "student_last_name": "Mann",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 192,
+  "fields": {
+    "student_first_name": "Daniel",
+    "student_last_name": "Brown",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 193,
+  "fields": {
+    "student_first_name": "Tiffany",
+    "student_last_name": "Cabrera",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 194,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Moore",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 195,
+  "fields": {
+    "student_first_name": "Paul",
+    "student_last_name": "Wilson",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 196,
+  "fields": {
+    "student_first_name": "Joshua",
+    "student_last_name": "Pierce",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 197,
+  "fields": {
+    "student_first_name": "Stephanie",
+    "student_last_name": "Myers",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 198,
+  "fields": {
+    "student_first_name": "Nicolas",
+    "student_last_name": "Kennedy",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 199,
+  "fields": {
+    "student_first_name": "Carla",
+    "student_last_name": "James",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 200,
+  "fields": {
+    "student_first_name": "Thomas",
+    "student_last_name": "Anthony",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 201,
+  "fields": {
+    "student_first_name": "Sarah",
+    "student_last_name": "Vega",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 202,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "King",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 203,
+  "fields": {
+    "student_first_name": "Chelsea",
+    "student_last_name": "Ray",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 204,
+  "fields": {
+    "student_first_name": "Brandon",
+    "student_last_name": "Garcia",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 205,
+  "fields": {
+    "student_first_name": "Sabrina",
+    "student_last_name": "Smith",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 206,
+  "fields": {
+    "student_first_name": "Sydney",
+    "student_last_name": "Kemp",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 207,
+  "fields": {
+    "student_first_name": "Jennifer",
+    "student_last_name": "Hurst",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 208,
+  "fields": {
+    "student_first_name": "Jeffrey",
+    "student_last_name": "Walker",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 209,
+  "fields": {
+    "student_first_name": "Miranda",
+    "student_last_name": "Davis",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 210,
+  "fields": {
+    "student_first_name": "Mark",
+    "student_last_name": "Miller",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 211,
+  "fields": {
+    "student_first_name": "Richard",
+    "student_last_name": "Obrien",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 212,
+  "fields": {
+    "student_first_name": "Melanie",
+    "student_last_name": "Sanchez",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 213,
+  "fields": {
+    "student_first_name": "Lauren",
+    "student_last_name": "Barnes",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 214,
+  "fields": {
+    "student_first_name": "Matthew",
+    "student_last_name": "Wilson",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 215,
+  "fields": {
+    "student_first_name": "Wendy",
+    "student_last_name": "Brown",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 216,
+  "fields": {
+    "student_first_name": "Adam",
+    "student_last_name": "Jackson",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 217,
+  "fields": {
+    "student_first_name": "Robin",
+    "student_last_name": "Lopez",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 218,
+  "fields": {
+    "student_first_name": "Richard",
+    "student_last_name": "Gonzalez",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 219,
+  "fields": {
+    "student_first_name": "Jerome",
+    "student_last_name": "Hammond",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 220,
+  "fields": {
+    "student_first_name": "Rodney",
+    "student_last_name": "Burch",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 221,
+  "fields": {
+    "student_first_name": "Jeffrey",
+    "student_last_name": "Jenkins",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 222,
+  "fields": {
+    "student_first_name": "Lisa",
+    "student_last_name": "Randolph",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 223,
+  "fields": {
+    "student_first_name": "Eugene",
+    "student_last_name": "Gray",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 224,
+  "fields": {
+    "student_first_name": "Steven",
+    "student_last_name": "Buck",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 225,
+  "fields": {
+    "student_first_name": "Douglas",
+    "student_last_name": "Pearson",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 226,
+  "fields": {
+    "student_first_name": "Donald",
+    "student_last_name": "Hickman",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 227,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Chapman",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 228,
+  "fields": {
+    "student_first_name": "Lisa",
+    "student_last_name": "Thornton",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 229,
+  "fields": {
+    "student_first_name": "Daniel",
+    "student_last_name": "Brown",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 230,
+  "fields": {
+    "student_first_name": "Suzanne",
+    "student_last_name": "Moore",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 231,
+  "fields": {
+    "student_first_name": "Christopher",
+    "student_last_name": "Miller",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 232,
+  "fields": {
+    "student_first_name": "Jenna",
+    "student_last_name": "Hughes",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 233,
+  "fields": {
+    "student_first_name": "Gregory",
+    "student_last_name": "Freeman",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 234,
+  "fields": {
+    "student_first_name": "Erin",
+    "student_last_name": "Chase",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 235,
+  "fields": {
+    "student_first_name": "Joseph",
+    "student_last_name": "Wright",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 236,
+  "fields": {
+    "student_first_name": "Jennifer",
+    "student_last_name": "Holmes",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 237,
+  "fields": {
+    "student_first_name": "Amanda",
+    "student_last_name": "Jackson",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 238,
+  "fields": {
+    "student_first_name": "Dustin",
+    "student_last_name": "Morrison",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 239,
+  "fields": {
+    "student_first_name": "Ashley",
+    "student_last_name": "Perkins",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 240,
+  "fields": {
+    "student_first_name": "Jerry",
+    "student_last_name": "Clark",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 241,
+  "fields": {
+    "student_first_name": "Joseph",
+    "student_last_name": "Cook",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 242,
+  "fields": {
+    "student_first_name": "Sherri",
+    "student_last_name": "Cruz",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 243,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Brooks",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 244,
+  "fields": {
+    "student_first_name": "Tiffany",
+    "student_last_name": "Bright",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 245,
+  "fields": {
+    "student_first_name": "Tara",
+    "student_last_name": "Murray",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 246,
+  "fields": {
+    "student_first_name": "Anna",
+    "student_last_name": "Neal",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 247,
+  "fields": {
+    "student_first_name": "Stephen",
+    "student_last_name": "Carey",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 248,
+  "fields": {
+    "student_first_name": "Stephanie",
+    "student_last_name": "Wade",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 249,
+  "fields": {
+    "student_first_name": "Andrew",
+    "student_last_name": "Jackson",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 250,
+  "fields": {
+    "student_first_name": "Steven",
+    "student_last_name": "Williams",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 251,
+  "fields": {
+    "student_first_name": "Judy",
+    "student_last_name": "Davidson",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 252,
+  "fields": {
+    "student_first_name": "Jeremiah",
+    "student_last_name": "Wallace",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 253,
+  "fields": {
+    "student_first_name": "Eric",
+    "student_last_name": "Holt",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 254,
+  "fields": {
+    "student_first_name": "Jacob",
+    "student_last_name": "Brown",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 255,
+  "fields": {
+    "student_first_name": "Karen",
+    "student_last_name": "Bright",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 256,
+  "fields": {
+    "student_first_name": "Francisco",
+    "student_last_name": "Sims",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 257,
+  "fields": {
+    "student_first_name": "Rhonda",
+    "student_last_name": "Bates",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 258,
+  "fields": {
+    "student_first_name": "Christina",
+    "student_last_name": "Johnson",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 259,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Mcgrath",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 260,
+  "fields": {
+    "student_first_name": "Victoria",
+    "student_last_name": "Barber",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 261,
+  "fields": {
+    "student_first_name": "Brittany",
+    "student_last_name": "Krueger",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 262,
+  "fields": {
+    "student_first_name": "Linda",
+    "student_last_name": "Taylor",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 263,
+  "fields": {
+    "student_first_name": "Colleen",
+    "student_last_name": "Ortega",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 264,
+  "fields": {
+    "student_first_name": "Sydney",
+    "student_last_name": "Brown",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 265,
+  "fields": {
+    "student_first_name": "Brittany",
+    "student_last_name": "Dunn",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 266,
+  "fields": {
+    "student_first_name": "Nathan",
+    "student_last_name": "Grimes",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 267,
+  "fields": {
+    "student_first_name": "Rachel",
+    "student_last_name": "Foster",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 268,
+  "fields": {
+    "student_first_name": "Cassandra",
+    "student_last_name": "Graham",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 269,
+  "fields": {
+    "student_first_name": "Kathy",
+    "student_last_name": "Novak",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 270,
+  "fields": {
+    "student_first_name": "Joshua",
+    "student_last_name": "Harvey",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 271,
+  "fields": {
+    "student_first_name": "Peter",
+    "student_last_name": "Edwards",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 272,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Fitzgerald",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 273,
+  "fields": {
+    "student_first_name": "Jackie",
+    "student_last_name": "Mccarty",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 274,
+  "fields": {
+    "student_first_name": "Casey",
+    "student_last_name": "Allen",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 275,
+  "fields": {
+    "student_first_name": "David",
+    "student_last_name": "Davis",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 276,
+  "fields": {
+    "student_first_name": "Jamie",
+    "student_last_name": "Smith",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 277,
+  "fields": {
+    "student_first_name": "Matthew",
+    "student_last_name": "Carr",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 278,
+  "fields": {
+    "student_first_name": "Keith",
+    "student_last_name": "Young",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 279,
+  "fields": {
+    "student_first_name": "Lauren",
+    "student_last_name": "Mitchell",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 280,
+  "fields": {
+    "student_first_name": "Wesley",
+    "student_last_name": "White",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 281,
+  "fields": {
+    "student_first_name": "Paula",
+    "student_last_name": "Long",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 282,
+  "fields": {
+    "student_first_name": "Nicole",
+    "student_last_name": "Tapia",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 283,
+  "fields": {
+    "student_first_name": "Joseph",
+    "student_last_name": "Goodwin",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 284,
+  "fields": {
+    "student_first_name": "Claire",
+    "student_last_name": "Dean",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 285,
+  "fields": {
+    "student_first_name": "Eric",
+    "student_last_name": "Nelson",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 286,
+  "fields": {
+    "student_first_name": "Dennis",
+    "student_last_name": "Zuniga",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 287,
+  "fields": {
+    "student_first_name": "Carlos",
+    "student_last_name": "Glover",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 288,
+  "fields": {
+    "student_first_name": "Steven",
+    "student_last_name": "Nelson",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 289,
+  "fields": {
+    "student_first_name": "Jessica",
+    "student_last_name": "Arnold",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 290,
+  "fields": {
+    "student_first_name": "Sherry",
+    "student_last_name": "Williams",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 291,
+  "fields": {
+    "student_first_name": "Julian",
+    "student_last_name": "Christian",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 292,
+  "fields": {
+    "student_first_name": "Samantha",
+    "student_last_name": "Allen",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 293,
+  "fields": {
+    "student_first_name": "Scott",
+    "student_last_name": "Smith",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 294,
+  "fields": {
+    "student_first_name": "Sara",
+    "student_last_name": "Duarte",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 295,
+  "fields": {
+    "student_first_name": "Holly",
+    "student_last_name": "Anderson",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 296,
+  "fields": {
+    "student_first_name": "Zachary",
+    "student_last_name": "Singh",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 297,
+  "fields": {
+    "student_first_name": "April",
+    "student_last_name": "Dunlap",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 298,
+  "fields": {
+    "student_first_name": "Sandra",
+    "student_last_name": "Lamb",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 299,
+  "fields": {
+    "student_first_name": "Beth",
+    "student_last_name": "James",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 300,
+  "fields": {
+    "student_first_name": "Leslie",
+    "student_last_name": "Jordan",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 301,
+  "fields": {
+    "student_first_name": "Kevin",
+    "student_last_name": "Rose",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 302,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Jones",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 303,
+  "fields": {
+    "student_first_name": "Judy",
+    "student_last_name": "Scott",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 304,
+  "fields": {
+    "student_first_name": "Morgan",
+    "student_last_name": "Miller",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 305,
+  "fields": {
+    "student_first_name": "Tim",
+    "student_last_name": "Gray",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 306,
+  "fields": {
+    "student_first_name": "Leah",
+    "student_last_name": "Brown",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 307,
+  "fields": {
+    "student_first_name": "Jesus",
+    "student_last_name": "Flores",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 308,
+  "fields": {
+    "student_first_name": "Vicki",
+    "student_last_name": "Sanders",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 309,
+  "fields": {
+    "student_first_name": "Veronica",
+    "student_last_name": "White",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 310,
+  "fields": {
+    "student_first_name": "Maureen",
+    "student_last_name": "Griffin",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 311,
+  "fields": {
+    "student_first_name": "Jonathan",
+    "student_last_name": "Butler",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 312,
+  "fields": {
+    "student_first_name": "Aaron",
+    "student_last_name": "Shelton",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 313,
+  "fields": {
+    "student_first_name": "Monica",
+    "student_last_name": "Hood",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 314,
+  "fields": {
+    "student_first_name": "Tiffany",
+    "student_last_name": "Wheeler",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 315,
+  "fields": {
+    "student_first_name": "Matthew",
+    "student_last_name": "Conner",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 316,
+  "fields": {
+    "student_first_name": "Stephanie",
+    "student_last_name": "Hoffman",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 317,
+  "fields": {
+    "student_first_name": "John",
+    "student_last_name": "Riley",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 318,
+  "fields": {
+    "student_first_name": "Nancy",
+    "student_last_name": "Hill",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 319,
+  "fields": {
+    "student_first_name": "Jason",
+    "student_last_name": "Quinn",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 320,
+  "fields": {
+    "student_first_name": "Kevin",
+    "student_last_name": "Cruz",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 321,
+  "fields": {
+    "student_first_name": "Elizabeth",
+    "student_last_name": "Stewart",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 322,
+  "fields": {
+    "student_first_name": "Scott",
+    "student_last_name": "Stewart",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 323,
+  "fields": {
+    "student_first_name": "Brian",
+    "student_last_name": "Warner",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 324,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Norton",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 325,
+  "fields": {
+    "student_first_name": "Derek",
+    "student_last_name": "Little",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 326,
+  "fields": {
+    "student_first_name": "Tiffany",
+    "student_last_name": "Villanueva",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 327,
+  "fields": {
+    "student_first_name": "Virginia",
+    "student_last_name": "Kelly",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 328,
+  "fields": {
+    "student_first_name": "Christopher",
+    "student_last_name": "Ward",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 329,
+  "fields": {
+    "student_first_name": "Christopher",
+    "student_last_name": "White",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 330,
+  "fields": {
+    "student_first_name": "April",
+    "student_last_name": "Ramirez",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 331,
+  "fields": {
+    "student_first_name": "Steven",
+    "student_last_name": "Sanders",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 332,
+  "fields": {
+    "student_first_name": "David",
+    "student_last_name": "Anderson",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 333,
+  "fields": {
+    "student_first_name": "Aaron",
+    "student_last_name": "Norman",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 334,
+  "fields": {
+    "student_first_name": "Olivia",
+    "student_last_name": "Esparza",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 335,
+  "fields": {
+    "student_first_name": "Amanda",
+    "student_last_name": "Smith",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 336,
+  "fields": {
+    "student_first_name": "Samantha",
+    "student_last_name": "Clarke",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 337,
+  "fields": {
+    "student_first_name": "Joel",
+    "student_last_name": "Johnson",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 338,
+  "fields": {
+    "student_first_name": "George",
+    "student_last_name": "Jackson",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 339,
+  "fields": {
+    "student_first_name": "Daniel",
+    "student_last_name": "Heath",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 340,
+  "fields": {
+    "student_first_name": "David",
+    "student_last_name": "Acosta",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 341,
+  "fields": {
+    "student_first_name": "Lauren",
+    "student_last_name": "Waters",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 342,
+  "fields": {
+    "student_first_name": "Antonio",
+    "student_last_name": "Torres",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 343,
+  "fields": {
+    "student_first_name": "Jeffery",
+    "student_last_name": "Vasquez",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 344,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Clark",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 345,
+  "fields": {
+    "student_first_name": "Raymond",
+    "student_last_name": "Young",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 346,
+  "fields": {
+    "student_first_name": "Jeffrey",
+    "student_last_name": "Thompson",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 347,
+  "fields": {
+    "student_first_name": "Aaron",
+    "student_last_name": "Washington",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 348,
+  "fields": {
+    "student_first_name": "Jesse",
+    "student_last_name": "Shannon",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 349,
+  "fields": {
+    "student_first_name": "Sarah",
+    "student_last_name": "Kelley",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 350,
+  "fields": {
+    "student_first_name": "Devon",
+    "student_last_name": "Medina",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 351,
+  "fields": {
+    "student_first_name": "Jerome",
+    "student_last_name": "Quinn",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 352,
+  "fields": {
+    "student_first_name": "Alexander",
+    "student_last_name": "Smith",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 353,
+  "fields": {
+    "student_first_name": "Luis",
+    "student_last_name": "Espinoza",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 354,
+  "fields": {
+    "student_first_name": "Shannon",
+    "student_last_name": "Trevino",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 355,
+  "fields": {
+    "student_first_name": "Christina",
+    "student_last_name": "Bruce",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 356,
+  "fields": {
+    "student_first_name": "Raymond",
+    "student_last_name": "Cooper",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 357,
+  "fields": {
+    "student_first_name": "Christopher",
+    "student_last_name": "Warner",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 358,
+  "fields": {
+    "student_first_name": "Dustin",
+    "student_last_name": "Calderon",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 359,
+  "fields": {
+    "student_first_name": "Cassandra",
+    "student_last_name": "Lowe",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 360,
+  "fields": {
+    "student_first_name": "Mark",
+    "student_last_name": "Lara",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 361,
+  "fields": {
+    "student_first_name": "Mark",
+    "student_last_name": "Green",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 362,
+  "fields": {
+    "student_first_name": "Betty",
+    "student_last_name": "Lin",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 363,
+  "fields": {
+    "student_first_name": "Cynthia",
+    "student_last_name": "Reyes",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 364,
+  "fields": {
+    "student_first_name": "Kenneth",
+    "student_last_name": "Morgan",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 365,
+  "fields": {
+    "student_first_name": "Daniel",
+    "student_last_name": "Thomas",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 366,
+  "fields": {
+    "student_first_name": "Bryan",
+    "student_last_name": "Barton",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 367,
+  "fields": {
+    "student_first_name": "Tina",
+    "student_last_name": "Adams",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 368,
+  "fields": {
+    "student_first_name": "Austin",
+    "student_last_name": "Matthews",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 369,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Smith",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 370,
+  "fields": {
+    "student_first_name": "Brittany",
+    "student_last_name": "Mcpherson",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 371,
+  "fields": {
+    "student_first_name": "Nicole",
+    "student_last_name": "Gutierrez",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 372,
+  "fields": {
+    "student_first_name": "Christian",
+    "student_last_name": "Woods",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 373,
+  "fields": {
+    "student_first_name": "Alyssa",
+    "student_last_name": "Brooks",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 374,
+  "fields": {
+    "student_first_name": "Steve",
+    "student_last_name": "Hernandez",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 375,
+  "fields": {
+    "student_first_name": "Teresa",
+    "student_last_name": "Black",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 376,
+  "fields": {
+    "student_first_name": "Veronica",
+    "student_last_name": "Moon",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 377,
+  "fields": {
+    "student_first_name": "Linda",
+    "student_last_name": "Santiago",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 378,
+  "fields": {
+    "student_first_name": "Crystal",
+    "student_last_name": "Taylor",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 379,
+  "fields": {
+    "student_first_name": "Justin",
+    "student_last_name": "Wilson",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 380,
+  "fields": {
+    "student_first_name": "Ian",
+    "student_last_name": "Terrell",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 381,
+  "fields": {
+    "student_first_name": "Patricia",
+    "student_last_name": "Clark",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 382,
+  "fields": {
+    "student_first_name": "Jasmine",
+    "student_last_name": "Russell",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 383,
+  "fields": {
+    "student_first_name": "Lisa",
+    "student_last_name": "Pruitt",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 384,
+  "fields": {
+    "student_first_name": "Denise",
+    "student_last_name": "Banks",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 385,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Wright",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 386,
+  "fields": {
+    "student_first_name": "Jeffrey",
+    "student_last_name": "Luna",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 387,
+  "fields": {
+    "student_first_name": "Kathryn",
+    "student_last_name": "Long",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 388,
+  "fields": {
+    "student_first_name": "Cindy",
+    "student_last_name": "Moore",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 389,
+  "fields": {
+    "student_first_name": "Cassandra",
+    "student_last_name": "Esparza",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 390,
+  "fields": {
+    "student_first_name": "Rachel",
+    "student_last_name": "Ross",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 391,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Johnson",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 392,
+  "fields": {
+    "student_first_name": "Andrew",
+    "student_last_name": "Hebert",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 393,
+  "fields": {
+    "student_first_name": "Brittney",
+    "student_last_name": "Perkins",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 394,
+  "fields": {
+    "student_first_name": "Amanda",
+    "student_last_name": "Hernandez",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 395,
+  "fields": {
+    "student_first_name": "Katrina",
+    "student_last_name": "Fox",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 396,
+  "fields": {
+    "student_first_name": "Cameron",
+    "student_last_name": "Le",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 397,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Bush",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 398,
+  "fields": {
+    "student_first_name": "Johnny",
+    "student_last_name": "Welch",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 399,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Ingram",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 400,
+  "fields": {
+    "student_first_name": "Bradley",
+    "student_last_name": "Ortiz",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 401,
+  "fields": {
+    "student_first_name": "William",
+    "student_last_name": "Anderson",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 402,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Holland",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 403,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Johnson",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 404,
+  "fields": {
+    "student_first_name": "Melissa",
+    "student_last_name": "Barnes",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 405,
+  "fields": {
+    "student_first_name": "Jamie",
+    "student_last_name": "Miller",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 406,
+  "fields": {
+    "student_first_name": "Bryan",
+    "student_last_name": "Stewart",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 407,
+  "fields": {
+    "student_first_name": "Randy",
+    "student_last_name": "Cole",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 408,
+  "fields": {
+    "student_first_name": "Larry",
+    "student_last_name": "Price",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 409,
+  "fields": {
+    "student_first_name": "Deanna",
+    "student_last_name": "Kim",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 410,
+  "fields": {
+    "student_first_name": "Victoria",
+    "student_last_name": "Henderson",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 411,
+  "fields": {
+    "student_first_name": "Matthew",
+    "student_last_name": "Campbell",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 412,
+  "fields": {
+    "student_first_name": "Megan",
+    "student_last_name": "Parker",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 413,
+  "fields": {
+    "student_first_name": "Sarah",
+    "student_last_name": "Charles",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 414,
+  "fields": {
+    "student_first_name": "Tina",
+    "student_last_name": "Rogers",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 415,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Odonnell",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 416,
+  "fields": {
+    "student_first_name": "Jacob",
+    "student_last_name": "Robles",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 417,
+  "fields": {
+    "student_first_name": "Carrie",
+    "student_last_name": "Sanchez",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 418,
+  "fields": {
+    "student_first_name": "Jerry",
+    "student_last_name": "Ayers",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 419,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Thompson",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 420,
+  "fields": {
+    "student_first_name": "Mark",
+    "student_last_name": "Diaz",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 421,
+  "fields": {
+    "student_first_name": "Patricia",
+    "student_last_name": "Deleon",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 422,
+  "fields": {
+    "student_first_name": "Alexandra",
+    "student_last_name": "Smith",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 423,
+  "fields": {
+    "student_first_name": "Leah",
+    "student_last_name": "Goodwin",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 424,
+  "fields": {
+    "student_first_name": "Jessica",
+    "student_last_name": "Taylor",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 425,
+  "fields": {
+    "student_first_name": "Andre",
+    "student_last_name": "Doyle",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 426,
+  "fields": {
+    "student_first_name": "Mark",
+    "student_last_name": "Lee",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 427,
+  "fields": {
+    "student_first_name": "Denise",
+    "student_last_name": "Mercer",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 428,
+  "fields": {
+    "student_first_name": "Angela",
+    "student_last_name": "Dean",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 429,
+  "fields": {
+    "student_first_name": "Luke",
+    "student_last_name": "Martinez",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 430,
+  "fields": {
+    "student_first_name": "Alexander",
+    "student_last_name": "Hall",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 431,
+  "fields": {
+    "student_first_name": "Ashley",
+    "student_last_name": "Ramirez",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 432,
+  "fields": {
+    "student_first_name": "Raymond",
+    "student_last_name": "Mcgee",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 433,
+  "fields": {
+    "student_first_name": "Jennifer",
+    "student_last_name": "Gillespie",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 434,
+  "fields": {
+    "student_first_name": "Ashley",
+    "student_last_name": "Powell",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 435,
+  "fields": {
+    "student_first_name": "Amanda",
+    "student_last_name": "Watts",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 436,
+  "fields": {
+    "student_first_name": "Andrew",
+    "student_last_name": "Singleton",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 437,
+  "fields": {
+    "student_first_name": "Amanda",
+    "student_last_name": "Swanson",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 438,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Roberts",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 439,
+  "fields": {
+    "student_first_name": "Catherine",
+    "student_last_name": "Harris",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 440,
+  "fields": {
+    "student_first_name": "Donald",
+    "student_last_name": "Hawkins",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 441,
+  "fields": {
+    "student_first_name": "Joseph",
+    "student_last_name": "Rivera",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 442,
+  "fields": {
+    "student_first_name": "Steven",
+    "student_last_name": "Tyler",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 443,
+  "fields": {
+    "student_first_name": "Daniel",
+    "student_last_name": "Miller",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 444,
+  "fields": {
+    "student_first_name": "Joseph",
+    "student_last_name": "Curtis",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 445,
+  "fields": {
+    "student_first_name": "Rick",
+    "student_last_name": "Wilson",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 446,
+  "fields": {
+    "student_first_name": "Roger",
+    "student_last_name": "Wilson",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 447,
+  "fields": {
+    "student_first_name": "Kenneth",
+    "student_last_name": "Herrera",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 448,
+  "fields": {
+    "student_first_name": "Austin",
+    "student_last_name": "Hayden",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 449,
+  "fields": {
+    "student_first_name": "Jean",
+    "student_last_name": "Marks",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 450,
+  "fields": {
+    "student_first_name": "Duane",
+    "student_last_name": "Turner",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 451,
+  "fields": {
+    "student_first_name": "Matthew",
+    "student_last_name": "Ruiz",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 452,
+  "fields": {
+    "student_first_name": "Lisa",
+    "student_last_name": "Ashley",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 453,
+  "fields": {
+    "student_first_name": "Amy",
+    "student_last_name": "Ruiz",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 454,
+  "fields": {
+    "student_first_name": "Charles",
+    "student_last_name": "Gray",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 455,
+  "fields": {
+    "student_first_name": "Justin",
+    "student_last_name": "Hardin",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 456,
+  "fields": {
+    "student_first_name": "Kyle",
+    "student_last_name": "Simmons",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 457,
+  "fields": {
+    "student_first_name": "Bryan",
+    "student_last_name": "Calhoun",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 458,
+  "fields": {
+    "student_first_name": "Anthony",
+    "student_last_name": "Adkins",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 459,
+  "fields": {
+    "student_first_name": "Daniel",
+    "student_last_name": "Bradley",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 460,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Hurst",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 461,
+  "fields": {
+    "student_first_name": "Judy",
+    "student_last_name": "Williams",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 462,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Brady",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 463,
+  "fields": {
+    "student_first_name": "Edward",
+    "student_last_name": "Duffy",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 464,
+  "fields": {
+    "student_first_name": "Rachel",
+    "student_last_name": "Sims",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 465,
+  "fields": {
+    "student_first_name": "Michelle",
+    "student_last_name": "Martin",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 466,
+  "fields": {
+    "student_first_name": "Katherine",
+    "student_last_name": "Hart",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 467,
+  "fields": {
+    "student_first_name": "Anna",
+    "student_last_name": "Williams",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 468,
+  "fields": {
+    "student_first_name": "Tiffany",
+    "student_last_name": "Phillips",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 469,
+  "fields": {
+    "student_first_name": "Heather",
+    "student_last_name": "Clark",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 470,
+  "fields": {
+    "student_first_name": "Hannah",
+    "student_last_name": "Huff",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 471,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Ho",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 472,
+  "fields": {
+    "student_first_name": "Courtney",
+    "student_last_name": "Brown",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 473,
+  "fields": {
+    "student_first_name": "David",
+    "student_last_name": "Morris",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 474,
+  "fields": {
+    "student_first_name": "Anthony",
+    "student_last_name": "Turner",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 475,
+  "fields": {
+    "student_first_name": "Veronica",
+    "student_last_name": "Aguilar",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 476,
+  "fields": {
+    "student_first_name": "Amy",
+    "student_last_name": "Randolph",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 477,
+  "fields": {
+    "student_first_name": "Jennifer",
+    "student_last_name": "Elliott",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 478,
+  "fields": {
+    "student_first_name": "Keith",
+    "student_last_name": "Ramsey",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 479,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Long",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 480,
+  "fields": {
+    "student_first_name": "Mark",
+    "student_last_name": "Becker",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 481,
+  "fields": {
+    "student_first_name": "Laura",
+    "student_last_name": "Hunter",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 482,
+  "fields": {
+    "student_first_name": "Christina",
+    "student_last_name": "Christensen",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 483,
+  "fields": {
+    "student_first_name": "Frank",
+    "student_last_name": "Flores",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 484,
+  "fields": {
+    "student_first_name": "Samantha",
+    "student_last_name": "Jimenez",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 485,
+  "fields": {
+    "student_first_name": "Philip",
+    "student_last_name": "White",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 486,
+  "fields": {
+    "student_first_name": "Leah",
+    "student_last_name": "King",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 487,
+  "fields": {
+    "student_first_name": "Jonathan",
+    "student_last_name": "Todd",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 488,
+  "fields": {
+    "student_first_name": "Joshua",
+    "student_last_name": "Pruitt",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 489,
+  "fields": {
+    "student_first_name": "Melinda",
+    "student_last_name": "Allen",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 490,
+  "fields": {
+    "student_first_name": "James",
+    "student_last_name": "Christensen",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 491,
+  "fields": {
+    "student_first_name": "Amber",
+    "student_last_name": "Daniels",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 492,
+  "fields": {
+    "student_first_name": "Joy",
+    "student_last_name": "Jenkins",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 493,
+  "fields": {
+    "student_first_name": "Victoria",
+    "student_last_name": "Carter",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 494,
+  "fields": {
+    "student_first_name": "Jackson",
+    "student_last_name": "Norris",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 495,
+  "fields": {
+    "student_first_name": "Jeffrey",
+    "student_last_name": "Marshall",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 496,
+  "fields": {
+    "student_first_name": "Jennifer",
+    "student_last_name": "Robertson",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 497,
+  "fields": {
+    "student_first_name": "Peter",
+    "student_last_name": "Alvarez",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 498,
+  "fields": {
+    "student_first_name": "Joseph",
+    "student_last_name": "Singh",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 499,
+  "fields": {
+    "student_first_name": "Joseph",
+    "student_last_name": "Evans",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 500,
+  "fields": {
+    "student_first_name": "Suzanne",
+    "student_last_name": "Richardson",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 501,
+  "fields": {
+    "student_first_name": "Steven",
+    "student_last_name": "Franklin",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 502,
+  "fields": {
+    "student_first_name": "Jillian",
+    "student_last_name": "Herman",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 503,
+  "fields": {
+    "student_first_name": "Benjamin",
+    "student_last_name": "Wilson",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 504,
+  "fields": {
+    "student_first_name": "Curtis",
+    "student_last_name": "Yates",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 505,
+  "fields": {
+    "student_first_name": "Kevin",
+    "student_last_name": "Tran",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 506,
+  "fields": {
+    "student_first_name": "Jasmine",
+    "student_last_name": "Cook",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 507,
+  "fields": {
+    "student_first_name": "Amanda",
+    "student_last_name": "Henson",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 508,
+  "fields": {
+    "student_first_name": "Deborah",
+    "student_last_name": "Cook",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 509,
+  "fields": {
+    "student_first_name": "Aimee",
+    "student_last_name": "Soto",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 510,
+  "fields": {
+    "student_first_name": "Bradley",
+    "student_last_name": "Burke",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 511,
+  "fields": {
+    "student_first_name": "Karen",
+    "student_last_name": "Anderson",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 512,
+  "fields": {
+    "student_first_name": "Tommy",
+    "student_last_name": "Hopkins",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 513,
+  "fields": {
+    "student_first_name": "David",
+    "student_last_name": "Barton",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 514,
+  "fields": {
+    "student_first_name": "Bonnie",
+    "student_last_name": "Olson",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 515,
+  "fields": {
+    "student_first_name": "Daniel",
+    "student_last_name": "Bray",
+    "course": 6,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 516,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Roberts",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 517,
+  "fields": {
+    "student_first_name": "Maureen",
+    "student_last_name": "Romero",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 518,
+  "fields": {
+    "student_first_name": "Alexis",
+    "student_last_name": "Morgan",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 519,
+  "fields": {
+    "student_first_name": "Carla",
+    "student_last_name": "Mosley",
+    "course": 3,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 520,
+  "fields": {
+    "student_first_name": "Cindy",
+    "student_last_name": "Weiss",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 521,
+  "fields": {
+    "student_first_name": "Jessica",
+    "student_last_name": "Diaz",
+    "course": 2,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 522,
+  "fields": {
+    "student_first_name": "Johnny",
+    "student_last_name": "Sanchez",
+    "course": 5,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 523,
+  "fields": {
+    "student_first_name": "Michael",
+    "student_last_name": "Arroyo",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 524,
+  "fields": {
+    "student_first_name": "Todd",
+    "student_last_name": "Jimenez",
+    "course": 4,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.student",
+  "pk": 525,
+  "fields": {
+    "student_first_name": "Robert",
+    "student_last_name": "Stone",
+    "course": 1,
+    "teacher": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 1,
+  "fields": {
+    "teacher_name": 1,
+    "subject_name": "French",
+    "lecture_amount": 26,
+    "lecture_duration": 3,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 2,
+  "fields": {
+    "teacher_name": 1,
+    "subject_name": "Latin",
+    "lecture_amount": 21,
+    "lecture_duration": 2,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 3,
+  "fields": {
+    "teacher_name": 1,
+    "subject_name": "Geometry",
+    "lecture_amount": 76,
+    "lecture_duration": 3,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 4,
+  "fields": {
+    "teacher_name": 1,
+    "subject_name": "English",
+    "lecture_amount": 37,
+    "lecture_duration": 3,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 5,
+  "fields": {
+    "teacher_name": 1,
+    "subject_name": "Algebra",
+    "lecture_amount": 99,
+    "lecture_duration": 1,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 6,
+  "fields": {
+    "teacher_name": 1,
+    "subject_name": "Arabic",
+    "lecture_amount": 25,
+    "lecture_duration": 3,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 7,
+  "fields": {
+    "teacher_name": 1,
+    "subject_name": "Computer Science",
+    "lecture_amount": 33,
+    "lecture_duration": 3,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 8,
+  "fields": {
+    "teacher_name": 1,
+    "subject_name": "Arabic",
+    "lecture_amount": 56,
+    "lecture_duration": 3,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 9,
+  "fields": {
+    "teacher_name": 1,
+    "subject_name": "Music",
+    "lecture_amount": 35,
+    "lecture_duration": 2,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 10,
+  "fields": {
+    "teacher_name": 1,
+    "subject_name": "Greek",
+    "lecture_amount": 6,
+    "lecture_duration": 1,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 11,
+  "fields": {
+    "teacher_name": 81,
+    "subject_name": "Arabic",
+    "lecture_amount": 94,
+    "lecture_duration": 1,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 12,
+  "fields": {
+    "teacher_name": 32,
+    "subject_name": "Spanish",
+    "lecture_amount": 66,
+    "lecture_duration": 2,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 13,
+  "fields": {
+    "teacher_name": 52,
+    "subject_name": "Music",
+    "lecture_amount": 79,
+    "lecture_duration": 1,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 14,
+  "fields": {
+    "teacher_name": 17,
+    "subject_name": "History",
+    "lecture_amount": 61,
+    "lecture_duration": 3,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 15,
+  "fields": {
+    "teacher_name": 53,
+    "subject_name": "Arabic",
+    "lecture_amount": 54,
+    "lecture_duration": 2,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 16,
+  "fields": {
+    "teacher_name": 19,
+    "subject_name": "Greek",
+    "lecture_amount": 55,
+    "lecture_duration": 2,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 17,
+  "fields": {
+    "teacher_name": 90,
+    "subject_name": "Greek",
+    "lecture_amount": 37,
+    "lecture_duration": 3,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 18,
+  "fields": {
+    "teacher_name": 74,
+    "subject_name": "Geography",
+    "lecture_amount": 67,
+    "lecture_duration": 2,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 19,
+  "fields": {
+    "teacher_name": 69,
+    "subject_name": "Mathematics",
+    "lecture_amount": 62,
+    "lecture_duration": 2,
+    "student_name": []
+  }
+},
+{
+  "model": "academy.subjects",
+  "pk": 20,
+  "fields": {
+    "teacher_name": 11,
+    "subject_name": "Drama",
+    "lecture_amount": 61,
+    "lecture_duration": 2,
+    "student_name": []
+  }
+}
+]

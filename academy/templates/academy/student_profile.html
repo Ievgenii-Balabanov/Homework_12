@@ -1,0 +1,20 @@
+{% extends "academy/base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile</title>
+</head>
+<body>
+{% block content %}
+    <fieldset>
+    <legend><h2>Student # {{ studentprofile.some_student }} Profile</h2></legend>
+    <p><strong>Hobby:</strong> {{ studentprofile.hobby }}</p>
+    <p><strong>Religion:</strong> {{ studentprofile.religion }}</p>
+    <p><strong>Age:</strong> {{ studentprofile.age }}</p>
+    <p><strong>Birth date:</strong> {{ studentprofile.birth_date }}</p>
+    </fieldset>
+{% endblock content %}
+</body>
+</html>

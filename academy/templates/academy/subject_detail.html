@@ -1,0 +1,19 @@
+{% extends "academy/base.html" %}
+
+{% block content %}
+
+  <h1>Subject: {{ subjects.subject_name}}</h1>
+    <p><strong>Amount of lectures:</strong> {{ subjects.lecture_amount }} lectures</p>
+    <p><strong>Lecture duration:</strong> {{ subjects.lecture_duration }} hour(s)</p>
+    <p><strong>Teacher:</strong> {{ subjects.teacher_name}}</p>
+{#    <p><strong>Student(s):</strong>{{ subjects.student_name.all }}</p>#}
+    <p><strong>Student(s):</strong> {% for student in subjects.student_name.all %} <a href="{{ student.get_absolute_url }}">{{ student }}</a>
+{% endfor %}
+    <p><strong>Student count: </strong>{{ subjects.student_count }}</p>
+{% endblock %}
+
+
+{#{% for subject in student.subjects_set.all%}#}
+{#        <a href="{% url "academy:subject_detail" student.id %}"> {{ subject }}</a></p>#}
+{#        <a href="{{ subject.get_absolute_url }}"> {{ subject }}</a></p>#}
+{#{% endfor %}#}

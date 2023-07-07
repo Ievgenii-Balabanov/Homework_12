@@ -1,0 +1,31 @@
+{% extends "academy/base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block Title %}
+        <title>Students</title>
+    {% endblock Title %}
+</head>
+<body>
+{% block content %}
+    <fieldset>
+    <h1>List of the Students:</h1>
+    </fieldset>
+
+{% if student_list %}
+    <ul>
+    {% for student in student_list %}
+        <li>
+            <a href="{% url "academy:student_detail" student.id %}">{{ student.student_first_name }} {{ student.student_last_name }}</a> (Teachers: {{ student.teacher.all|join:", " }})
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No student are available</p>
+{% endif %}
+        Average course: {{ student.course_avg }}
+{% endblock content %}
+
+</body>
+</html>
