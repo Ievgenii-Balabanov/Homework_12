@@ -1,6 +1,7 @@
 import random
 
 from django.core.management import BaseCommand
+from django.db.models import Max, Min
 from django.shortcuts import get_object_or_404
 from faker import Faker
 
@@ -9,8 +10,9 @@ from academy.models import Subjects, Teacher, Student, StudentProfile
 
 class Command(BaseCommand):
     def add_arguments(self, parser):
-        parser.add_argument("new_studentprofile", type=int, help="Add a 'new student profile' ", choices=range(1, 50))
+        parser.add_argument("new_studentprofile", type=int, help="Add a 'new student profile' ")
 
+    # , choices = range(1, 50)
     def handle(self, *args, **kwargs):
 
         faker = Faker()
@@ -49,7 +51,10 @@ class Command(BaseCommand):
             "Music",
         ]
 
-        particular_student = Student.objects.get(pk=99)
+        max_id = Student.objects.all().aggregate(max_id=Max("id"))["max_id"]
+        min_id = Student.objects.all().aggregate(min_id=Min("id"))["min_id"]
+        pk = random.randrange(min_id, max_id)
+        particular_student = Student.objects.get(pk=pk)
         StudentProfile.objects.bulk_create(
             (
                 StudentProfile(some_student=particular_student, hobby=random.choice(hobby_list),
