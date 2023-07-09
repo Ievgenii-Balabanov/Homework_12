@@ -17,10 +17,12 @@
     <div class="col-sm-2">
         {% block sidebar %}
                 <ul class="sidebar-nav">
-                  <li><a href="{% url "academy:index" %}">Home</a></li>
-                  <li><a href="{% url "academy:students_list" %}">All students</a></li>
-                  <li><a href="{% url "academy:subject_list" %}">All subjects</a></li>
-                  <li><a href="{% url "academy:teacher_list" %}">All teachers</a></li>
+                    <li><a href="{% url "academy:index" %}">Home</a></li>
+                    <li><a href="{% url "academy:students_list" %}">All students</a></li>
+                    <li><a href="{% url "academy:subject_list" %}">All subjects</a></li>
+                    <li><a href="{% url "academy:teacher_list" %}">All teachers</a></li>
+                    <p>
+                    <li><a href="{% url "academy:contact-us" %}">Contact Us</a></li>
                 </ul>
         {% endblock sidebar %}
     </div>

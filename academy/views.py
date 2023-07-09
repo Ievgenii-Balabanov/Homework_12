@@ -1,8 +1,16 @@
 from django.db.models import Count, Avg
+from django.shortcuts import render, redirect
+from django.urls import reverse
+from academy.tasks import send_mail
+from django.conf import settings
+from datetime import datetime, timedelta
 
+from django.utils import timezone
 from django.views import generic
 
 from academy.models import Student, StudentProfile, Subjects, Teacher
+from .forms import ReminderForm
+from .tasks import send_email
 
 
 class IndexView(generic.ListView):
@@ -47,3 +55,38 @@ class TeacherListView(generic.ListView):
 class TeacherDetailView(generic.DetailView):
     model = Teacher
     template_name = "academy/teacher_detail.html"
+
+
+def contact_us(request):
+
+# --------
+
+    if request.POST:
+        form = ReminderForm(request.POST)
+        if form.is_valid():
+            tomorrow = datetime.utcnow() + timedelta(days=1)
+            send_email.apply_async(kwargs={"from_email": form.cleaned_data["from_email"],
+                                           "message": form.cleaned_data["message"]},
+                                   eta=tomorrow)
+            return redirect(reverse("academy:index"))
+    else:
+        form = ReminderForm()
+    return render(request, "academy/contact_us.html", {"form": form})
+
+
+    # if request.POST:
+    #     form = ReminderForm(request.POST)
+    #     if form.is_valid():
+    #         tomorrow = datetime.utcnow() + timedelta(days=1)
+    #         send_mail(
+    #             send_mail.apply_async(request.POST, eta=tomorrow),
+    #             form.cleaned_data.get("message"),
+    #             # form.cleaned_data.get("datetime"),
+    #             settings.NOREPLY_EMAIL,
+    #             [form.cleaned_data.get("from_email")],
+    #             fail_silently=False,
+    #         )
+    #     return redirect(reverse("academy:index"))
+    # else:
+    #     form = ReminderForm()
+    # return render(request, "academy/contact_us.html", {"form": form})
