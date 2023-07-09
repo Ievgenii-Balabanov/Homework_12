@@ -73,7 +73,6 @@ def contact_us(request):
         form = ReminderForm()
     return render(request, "academy/contact_us.html", {"form": form})
 
-
     # if request.POST:
     #     form = ReminderForm(request.POST)
     #     if form.is_valid():
