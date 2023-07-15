@@ -10,10 +10,12 @@
 </head>
 <body>
 {% block content %}
+        <br>
+<h3><a href="{% url "academy:student_creation" %}"> &#9998; Create Student</a></h3>
+    <br>
     <fieldset>
     <h1>List of the Students:</h1>
     </fieldset>
-<h3><a href="{% url "academy:student_creation" %}"> &#9998; Create Student</a></h3>
 {% if student_list %}
     <ul>
     {% for student in student_list %}
