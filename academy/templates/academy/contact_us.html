@@ -1,3 +1,5 @@
+{% load static %}
+<link rel="stylesheet" href="{% static "css/base.css" %}">
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,11 +10,13 @@
     <title>Document</title>
 </head>
 <body>
+
 <form action="{% url "academy:contact-us" %}" method="POST">
     {% csrf_token %}
     {{ form.as_p }}
     <input type="submit" value="Send">
 </form>
+<a href="{% url "academy:index" %}">Home</a>
 
 </body>
 </html>

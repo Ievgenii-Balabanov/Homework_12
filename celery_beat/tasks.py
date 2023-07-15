@@ -6,6 +6,7 @@ from celery_beat.models import Author, Quote
 from django.core.mail import send_mail
 from celery import shared_task
 from django.conf import settings
+
 django.setup()
 
 
@@ -28,7 +29,7 @@ def add_five_quotes():
                 "There is no any available quotes for you!",
                 settings.NOREPLY_EMAIL,
                 ["test@noreply.com"],
-                fail_silently=False
+                fail_silently=False,
             )
             return
 
@@ -52,10 +53,7 @@ def add_five_quotes():
                     description = item.find("div", class_="author-description").text
 
                     Author.objects.create(
-                        author=author,
-                        birth_date=birth_date,
-                        hometown=place_of_birth,
-                        description=description
+                        author=author, birth_date=birth_date, hometown=place_of_birth, description=description
                     )
 
             author = Author.objects.get(author=author)
@@ -75,6 +73,6 @@ def add_five_quotes():
                 "5 new quotes are successfully added!",
                 settings.NOREPLY_EMAIL,
                 ["test@noreply.com"],
-                fail_silently=False
+                fail_silently=False,
             )
             break

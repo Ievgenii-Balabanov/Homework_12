@@ -1,7 +1,10 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.core.paginator import Paginator
 from django.db.models import Count, Avg
+from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.template import loader
-from django.urls import reverse
+from django.urls import reverse, reverse_lazy
 
 from django.views import generic
 
@@ -18,12 +21,28 @@ class IndexView(generic.ListView):
 class StudentListView(generic.ListView):
     model = Student
     template_name = "academy/students_list.html"
+    paginate_by = 10
     queryset = Student.objects.prefetch_related("teacher").annotate(course_avg=Avg("course"))
 
 
 class StudentDetailView(generic.DetailView):
     model = Student
     template_name = "academy/student_detail.html"
+
+
+class StudentCreateView(LoginRequiredMixin, generic.CreateView):
+    model = Student
+    fields = ["student_first_name", "student_last_name", "course"]
+
+
+class StudentUpdateView(LoginRequiredMixin, generic.UpdateView):
+    model = Student
+    fields = ["student_first_name", "student_last_name", "course"]
+
+
+class StudentDeleteView(LoginRequiredMixin, generic.DeleteView):
+    model = Student
+    success_url = reverse_lazy("academy:students_list")
 
 
 class StudentProfileDetailView(generic.DetailView):
@@ -34,6 +53,7 @@ class StudentProfileDetailView(generic.DetailView):
 class SubjectListView(generic.ListView):
     model = StudentProfile
     template_name = "academy/subject_list.html"
+    paginate_by = 10
     queryset = Subjects.objects.select_related("teacher_name").annotate(student_count=Count("student_name__id"))
 
 
@@ -46,6 +66,7 @@ class SubjectDetailView(generic.DetailView):
 class TeacherListView(generic.ListView):
     model = Teacher
     template_name = "academy/teacher_list.html"
+    paginate_by = 10
     queryset = Teacher.objects.prefetch_related("subjects_set").all()
 
 
@@ -58,12 +79,16 @@ def contact_us(request):
     if request.POST:
         form = ReminderForm(request.POST)
         if form.is_valid():
-            send_email.apply_async(kwargs={"subject": "Reminder",
-                                           "message": loader.render_to_string("academy/email_template.html",
-                                                                              {"message": form.cleaned_data["message"]},
-                                                                              request),
-                                           "from_email": form.cleaned_data["from_email"]},
-                                   eta=form.cleaned_data["datetime"])
+            send_email.apply_async(
+                kwargs={
+                    "subject": "Reminder",
+                    "message": loader.render_to_string(
+                        "academy/email_template.html", {"message": form.cleaned_data["message"]}, request
+                    ),
+                    "from_email": form.cleaned_data["from_email"],
+                },
+                eta=form.cleaned_data["datetime"],
+            )
             return redirect(reverse("academy:index"))
     else:
         form = ReminderForm()

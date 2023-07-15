@@ -1,6 +1,10 @@
 {% extends "academy/base.html" %}
 {% load static %}
 
+{% block css_additional %}
+    <link rel="stylesheet" href="{% static "css/base.css" %}">
+{% endblock css_additional %}
+
 {% block content %}
   <h1>Local Library Home</h1>
 

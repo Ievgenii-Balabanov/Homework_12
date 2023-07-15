@@ -1,4 +1,5 @@
 {% extends "academy/base.html" %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,7 @@
     <fieldset>
     <h1>List of the Students:</h1>
     </fieldset>
-
+<h3><a href="{% url "academy:student_creation" %}"> &#9998; Create Student</a></h3>
 {% if student_list %}
     <ul>
     {% for student in student_list %}

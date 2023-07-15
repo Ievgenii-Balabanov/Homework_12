@@ -17,7 +17,7 @@ class StudentAdmin(admin.ModelAdmin):
 
     search_fields = ["student_first_name"]
     list_filter = ["course"]
-    filter_horizontal = ("teacher", )
+    filter_horizontal = ("teacher",)
 
 
 class TeacherAdmin(admin.ModelAdmin):

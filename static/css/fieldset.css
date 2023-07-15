@@ -1,0 +1,10 @@
+
+fieldset {
+    margin-left: 2%;
+    width: 400px;
+    color: black;
+    border-radius: 25px;
+    padding: 10px;
+    height: 70px;
+    background: lightcyan;
+}

@@ -15,9 +15,12 @@ class Command(BaseCommand):
         faker = Faker()
         Student.objects.bulk_create(
             (
-                Student(student_first_name=faker.first_name(), student_last_name=faker.last_name(),
-                        course=random.randint(1, 6))
-                for _ in range(kwargs.get('new_student'))
+                Student(
+                    student_first_name=faker.first_name(),
+                    student_last_name=faker.last_name(),
+                    course=random.randint(1, 6),
+                )
+                for _ in range(kwargs.get("new_student"))
             )
         )
         self.stdout.write(self.style.SUCCESS(f"New students number: {kwargs.get('new_student')}"))

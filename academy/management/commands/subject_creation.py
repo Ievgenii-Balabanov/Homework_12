@@ -12,34 +12,37 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         subjects_list = [
-            'Mathematics',
-            'Algebra',
-            'Geometry',
-            'Science',
-            'Geography',
-            'History',
-            'English',
-            'Spanish',
-            'German',
-            'French',
-            'Latin',
-            'Greek',
-            'Arabic',
-            'Computer Science',
-            'Art',
-            'Economics',
-            'Music',
-            'Drama',
-            'Physical Education',
+            "Mathematics",
+            "Algebra",
+            "Geometry",
+            "Science",
+            "Geography",
+            "History",
+            "English",
+            "Spanish",
+            "German",
+            "French",
+            "Latin",
+            "Greek",
+            "Arabic",
+            "Computer Science",
+            "Art",
+            "Economics",
+            "Music",
+            "Drama",
+            "Physical Education",
         ]
 
         teacher = Teacher.objects.all()
         Subjects.objects.bulk_create(
             (
-                Subjects(teacher_name=random.choice(teacher), subject_name=random.choice(subjects_list),
-                         lecture_amount=random.randint(1, 100),
-                         lecture_duration=random.randint(1, 3))
-                for _ in range(kwargs.get('new_subject'))
+                Subjects(
+                    teacher_name=random.choice(teacher),
+                    subject_name=random.choice(subjects_list),
+                    lecture_amount=random.randint(1, 100),
+                    lecture_duration=random.randint(1, 3),
+                )
+                for _ in range(kwargs.get("new_subject"))
             )
         )
         self.stdout.write(self.style.SUCCESS(f"New Subjects number: {kwargs.get('new_subject')}"))
