@@ -98,7 +98,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: lemonchiffon;
+    background-color: lightgoldenrodyellow;
     border: 1px solid #555;
 }
 
@@ -136,7 +136,9 @@ li a:hover:not(.active) {
 
 h2 {
     /*isolation: isolate;*/
-    color: darkblue;
+    color: snow;
+    padding-right: 900px;
+    margin-top: 25px;
 }
 
 h3 {
@@ -191,7 +193,7 @@ body {
 /*    isolation: isolate;*/
 /*}*/
 
-/*h4 {*/
-/*    isolation: isolate;*/
-/*}*/
+h4 {
+    color: snow;
+}
 
