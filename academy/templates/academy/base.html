@@ -3,6 +3,12 @@
 <html lang="en">
 <head>
 <style>
+
+    ul:first-child {
+        float: right;
+        width: 100px;
+        margin-right: 30px;
+    }
 </style>
     <meta charset="UTF-8">
     {% block Title %}
@@ -16,18 +22,24 @@
 
  <div class="row">
     <div class="col-sm-2">
+    <ul>
+        <li><a href="/admin/">Login</a></li>
+    </ul>
         {% block sidebar %}
                 <ul class="sidebar-nav">
                     <li><a href="{% url "academy:index" %}"><b>Home</b></a></li>
                     <li><a href="{% url "academy:students_list" %}">All students</a></li>
                     <li><a href="{% url "academy:subject_list" %}">All subjects</a></li>
                     <li><a href="{% url "academy:teacher_list" %}">All teachers</a></li>
+                </ul>
+            <br>
+                <ul>
                     <li><a href="{% url "academy:contact-us" %}">Contact Us</a></li>
                 </ul>
         {% endblock sidebar %}
     </div>
  </div>
-
+ <p>
 {% block content %}
 {% endblock content %}
 

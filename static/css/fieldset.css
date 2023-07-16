@@ -7,4 +7,5 @@ fieldset {
     padding: 10px;
     height: 70px;
     background: lightcyan;
+    isolation: isolate;
 }
