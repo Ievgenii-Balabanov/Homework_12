@@ -8,7 +8,7 @@ from academy.models import Subjects, Teacher
 
 class Command(BaseCommand):
     def add_arguments(self, parser):
-        parser.add_argument("new_subject", type=int, help="Add a 'new_subject' ", choices=range(1, 20))
+        parser.add_argument("new_subject", type=int, help="Add a 'new_subject' ", choices=range(1, 100))
 
     def handle(self, *args, **kwargs):
         subjects_list = [

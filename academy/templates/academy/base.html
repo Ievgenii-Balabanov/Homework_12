@@ -1,6 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <style>
 
@@ -9,8 +10,26 @@
         width: 100px;
         margin-right: 30px;
     }
+
+#TopButton {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 24px;
+}
+
+#TopButton:hover {
+    background-color: darkseagreen;
+}
 </style>
-    <meta charset="UTF-8">
     {% block Title %}
          <title>Index</title>
     {% endblock Title %}
@@ -64,6 +83,29 @@
           </div>
         {% endif %}
 {% endblock %}
+
+<button onclick="topFunction()" id="TopButton" title="Go to top">Back to Top</button>
+<script>
+// Get the button
+let mybutton = document.getElementById("TopButton");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 </body>
 </html>

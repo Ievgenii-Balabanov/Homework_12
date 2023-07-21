@@ -17,17 +17,25 @@
     <h1>List of the Students:</h1>
     </fieldset>
 {% if student_list %}
+    <h2>Average course: {{ avg_count }} </h2>
+{#    <h2>Students count: {{ student_list }} </h2>#}
     <ul>
     {% for student in student_list %}
         <li>
-            <a href="{% url "academy:student_detail" student.id %}">{{ student.student_first_name }} {{ student.student_last_name }}</a> (Teachers: {{ student.teacher.all|join:", " }})
+            <a href="{% url "academy:student_detail" student.id %}"><strong>{{ student.student_first_name }}
+                {{ student.student_last_name }}</strong></a>
+            <p>
+            <strong>Teachers:</strong> {{ student.teacher.all|join:", " }}
+            <p>
+            <strong>Subjects:</strong> {{ student.subjects_set.all|join:", " }}
+            <p>
+            <strong>Student Profile: </strong> {{ student.studentprofile.some_student }}
         </li>
     {% endfor %}
     </ul>
 {% else %}
     <p>No student are available</p>
 {% endif %}
-        Average course: {{ course_set }}
 {% endblock content %}
 
 </body>
